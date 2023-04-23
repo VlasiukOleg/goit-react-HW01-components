@@ -12,6 +12,7 @@ export const UserInfo = styled.div`
   background-color: white;
   padding: 30px;
   border-radius: 5px;
+  margin-bottom: 10px;
 `;
 
 export const UserImg = styled.div`

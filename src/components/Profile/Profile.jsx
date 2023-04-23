@@ -25,25 +25,25 @@ export const Profile = ({
     <ProfileCard>
       <UserInfo>
         <UserImg>
-          <img src={avatar} alt="User avatar" class="avatar" width="50" />
+          <img src={avatar} alt="User avatar" width="50" />
         </UserImg>
         <UserName>{username}</UserName>
-        <UserTag class="tag">@{tag}</UserTag>
-        <p class="location">{location}</p>
+        <UserTag>@{tag}</UserTag>
+        <p>{location}</p>
       </UserInfo>
 
       <UserStats>
         <UserStatsItem>
           <UserStatsLabel>Followers</UserStatsLabel>
-          <span class="quantity">{followers}</span>
+          <span>{followers}</span>
         </UserStatsItem>
         <UserStatsItem>
           <UserStatsLabel>Views</UserStatsLabel>
-          <span class="quantity">{views}</span>
+          <span>{views}</span>
         </UserStatsItem>
         <UserStatsItem>
           <UserStatsLabel>Likes</UserStatsLabel>
-          <span class="quantity">{likes}</span>
+          <span>{likes}</span>
         </UserStatsItem>
       </UserStats>
     </ProfileCard>
